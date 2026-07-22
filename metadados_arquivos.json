@@ -1,0 +1,97 @@
+[
+  {
+    "arquivo_original": "EXP_ANUAL_carne(2).xlsx",
+    "planilhas": [
+      {
+        "kind": "sheet",
+        "id": "ws/6jh1iy",
+        "name": "Sheet 1",
+        "index": 0,
+        "range": "A1:H35",
+        "address": "A1:H35"
+      }
+    ]
+  },
+  {
+    "arquivo_original": "historico_regiao_amazonia_legal queimadas(2).xlsx",
+    "planilhas": [
+      {
+        "kind": "sheet",
+        "id": "ws/2mqgjp",
+        "name": "Worksheet",
+        "index": 0,
+        "range": "A1:N31",
+        "address": "A1:N31"
+      }
+    ]
+  },
+  {
+    "arquivo_original": "TABELA-GERAL-MAPBIOMAS-COL8.0-AMAZONIA_LEGAL-1(2).xlsx",
+    "planilhas": [
+      {
+        "kind": "sheet",
+        "id": "ws/oinpus",
+        "name": "INSTRUCOES_LEIA_ME",
+        "index": 0,
+        "range": "A1:R91",
+        "address": "A1:R91"
+      },
+      {
+        "kind": "sheet",
+        "id": "ws/9s9qm7",
+        "name": "COBERTURA_COL8.0",
+        "index": 1,
+        "range": "A1:AU26",
+        "address": "A1:AU26"
+      },
+      {
+        "kind": "sheet",
+        "id": "ws/dvbq9m",
+        "name": "DINTAB_COVERAGE",
+        "index": 2,
+        "range": "A1:AN71",
+        "address": "A1:AN71"
+      },
+      {
+        "kind": "sheet",
+        "id": "ws/8ch7yl",
+        "name": "PIVOTCHART_COVERAGE",
+        "index": 3,
+        "range": "A1:JH63",
+        "address": "A1:JH63"
+      },
+      {
+        "kind": "sheet",
+        "id": "ws/gkbrli",
+        "name": "TRANSICOES_COL8.0",
+        "index": 4,
+        "range": "A1:CO397",
+        "address": "A1:CO397"
+      },
+      {
+        "kind": "sheet",
+        "id": "ws/a5k100",
+        "name": "DINTAB_TRANSITION",
+        "index": 5,
+        "range": "A1:I10",
+        "address": "A1:I10"
+      },
+      {
+        "kind": "sheet",
+        "id": "ws/2h9s5g",
+        "name": "METADADOS",
+        "index": 6,
+        "range": "A1:H25",
+        "address": "A1:H25"
+      },
+      {
+        "kind": "sheet",
+        "id": "ws/a97jga",
+        "name": "LEGENDA",
+        "index": 7,
+        "range": "A1:F41",
+        "address": "A1:F41"
+      }
+    ]
+  }
+]
