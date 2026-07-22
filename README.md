@@ -1,70 +1,77 @@
-# Dados socioambientais da Amazônia Legal
+# The Environmental Cost of Beef Exports
 
-Repositório para organização de bases relacionadas à Amazônia Legal, com foco em exportações de carne, queimadas e cobertura e uso da terra.
+This repository contains datasets and reproducible resources for analyzing the environmental cost of Brazilian beef exports, with emphasis on the Legal Amazon.
 
-## Arquivos
+The project integrates information on beef exports, wildfires, and land-use and land-cover change.
 
-- `data/EXP_ANUAL_carne(2).xlsx`: dados anuais de exportação de carne.
-- `data/historico_regiao_amazonia_legal queimadas(2).xlsx`: histórico de queimadas na Amazônia Legal.
-- `data/TABELA-GERAL-MAPBIOMAS-COL8.0-AMAZONIA_LEGAL-1(2).xlsx`: tabela geral do MapBiomas, Coleção 8.0, para a Amazônia Legal.
-- `scripts/inspecionar_planilhas.py`: lista planilhas, dimensões, colunas e primeiras linhas.
-- `docs/metadados_arquivos.json`: metadados básicos extraídos das pastas de trabalho.
+## Files
 
-## Estrutura
+* `EXP_ANUAL_carne(2).xlsx`: annual beef export data.
+* `historico_regiao_amazonia_legal queimadas(2).xlsx`: historical wildfire data for the Legal Amazon.
+* `TABELA-GERAL-MAPBIOMAS-COL8.0-AMAZONIA_LEGAL-1(2).xlsx`: land-use and land-cover data from MapBiomas Collection 8.0.
+* `metadados_arquivos.json`: basic metadata extracted from the Excel files.
+* `inspecionar_planilhas.py`: Python script for inspecting worksheets, dimensions, columns, and initial rows.
+* `requirements.txt`: Python dependencies required to run the script.
+* `.gitignore`: files and folders that should not be tracked by Git.
 
-```text
-repositorio_amazonia_dados/
-├── data/
-├── docs/
-├── scripts/
-├── .gitignore
-├── README.md
-└── requirements.txt
-```
+## Research objective
 
-## Uso local
+The repository supports research on the relationship between beef exports and environmental degradation in the Brazilian Amazon.
+
+Potential analyses include:
+
+* beef export growth;
+* wildfire occurrence;
+* land-use and land-cover change;
+* pasture expansion;
+* deforestation;
+* environmental impacts associated with agricultural commodity exports.
+
+## How to use
+
+Create a Python virtual environment:
 
 ```bash
 python -m venv .venv
 ```
 
-No Windows:
+On Windows:
 
 ```bash
 .venv\Scripts\activate
 ```
 
-No Linux ou macOS:
+On Linux or macOS:
 
 ```bash
 source .venv/bin/activate
 ```
 
-Depois:
+Install the required packages:
 
 ```bash
 pip install -r requirements.txt
-python scripts/inspecionar_planilhas.py
 ```
 
-## Publicação no GitHub
-
-1. Crie um repositório vazio no GitHub.
-2. Extraia este pacote.
-3. Abra o terminal dentro da pasta `repositorio_amazonia_dados`.
-4. Execute:
+Run the data inspection script:
 
 ```bash
-git init
-git add .
-git commit -m "Adiciona bases socioambientais da Amazônia Legal"
-git branch -M main
-git remote add origin URL_DO_REPOSITORIO
-git push -u origin main
+python inspecionar_planilhas.py
 ```
 
-## Cuidados acadêmicos
+## Data sources and citation
 
-Antes da divulgação pública, confira a fonte, a autoria, a licença, a metodologia, o período de cobertura, as unidades, os códigos geográficos e as regras de citação de cada base.
+The files in this repository retain their original formats.
 
-Os arquivos foram preservados em seu formato original. Este repositório não atribui licença aos dados de terceiros.
+Users must verify and cite the original sources of each dataset, including their authorship, methodology, geographical coverage, temporal coverage, units of measurement, and conditions of use.
+
+The inclusion of third-party datasets in this repository does not transfer ownership or grant a new license for those datasets.
+
+## License
+
+No general license is currently assigned to the datasets because some files originate from third-party sources.
+
+Any future license should distinguish between:
+
+* original scripts and documentation produced for this project;
+* datasets governed by the terms and licenses of their original providers.
